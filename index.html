@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bando do Chapéu de Palha - One Piece</title>
+    <!-- Link para o arquivo CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo da cor do barco do Bando do Chapéu de Palha */
+        body {
+            background-color: #60A6F6;
+        }
+        .jumbotron {
+            background-image: url('background.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem */
+            background-size: cover;
+            color: white; /* Cor do texto para contrastar com a imagem */
+            height: 100vh; /* Altura igual à altura da viewport */
+            margin-bottom: 0; /* Remova a margem inferior */
+            position: relative;    
+        }
+
+        p {
+            font-family: "Roboto", Times, serif; /* Mudança da fonte para Times New Roman */
+        }
+
+        .jumbotron h1 {
+             font-weight: 700;
+        }
+
+        .jumbotron p {
+            font-weight: 700;
+        }
+
+        .bg-custom {
+            background-color: #FECF1F ;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+        <a class="navbar-brand" href="#">Bando do Chapéu de Palha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tripulacao">Tripulação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron com o nome do Bando do Chapéu de Palha -->
+    <div class="jumbotron jumbotron-fluid text-center" id="home">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                <div class="text-center text-white">
+                    <h1 class="display-4 mb-4" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Bando do Chapéu de Palha</h1>
+                    <p class="lead mb-0" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">O lendário bando pirata liderado por Monkey D. Luffy em busca do One Piece.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre o Bando do Chapéu de Palha -->
+    <section id="sobre">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre</h2>
+            <p>O Bando do Chapéu de Palha é um grupo de piratas liderado por Monkey D. Luffy. Eles estão em uma jornada épica para encontrar o lendário tesouro conhecido como One Piece e se tornarem os piratas mais poderosos do mundo.</p>
+        </div>
+    </section>
+
+    <!-- Personagens do Bando do Chapéu de Palha -->
+    <section id="tripulacao" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Tripulação</h2>
+            <div class="row">
+                <!-- Monkey D. Luffy -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="luffy.jpg" class="card-img-top" alt="Monkey D. Luffy">
+                        <div class="card-body">
+                            <h5 class="card-title">Monkey D. Luffy</h5>
+                            <p class="card-text">O capitão do Bando do Chapéu de Palha e o futuro Rei dos Piratas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Roronoa Zoro -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="zoro.jpg" class="card-img-top" alt="Roronoa Zoro">
+                        <div class="card-body">
+                            <h5 class="card-title">Roronoa Zoro</h5>
+                            <p class="card-text">O espadachim habilidoso e o primeiro recruta do bando.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Nami -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="nami.jpg" class="card-img-top" alt="Nami">
+                        <div class="card-body">
+                            <h5 class="card-title">Nami</h5>
+                            <p class="card-text">A navegadora talentosa e responsável pelo mapa do bando.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Usopp -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="usopp.jpg" class="card-img-top" alt="Usopp">
+                        <div class="card-body">
+                            <h5 class="card-title">Usopp</h5>
+                            <p class="card-text">O atirador de elite e o contador de histórias do bando.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sanji -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="sanji.jpg" class="card-img-top" alt="Sanji">
+                        <div class="card-body">
+                            <h5 class="card-title">Sanji</h5>
+                            <p class="card-text">O cozinheiro talentoso e mestre do estilo de luta Black Leg.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tony Tony Chopper -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="chopper.jpg" class="card-img-top" alt="Tony Tony Chopper">
+                        <div class="card-body">
+                            <h5 class="card-title">Tony Tony Chopper</h5>
+                            <p class="card-text">O médico da tripulação e um rena que comeu a Hito Hito no Mi.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Nico Robin -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="robin.jpg" class="card-img-top" alt="Nico Robin">
+                        <div class="card-body">
+                            <h5 class="card-title">Nico Robin</h5>
+                            <p class="card-text">A arqueóloga talentosa e a única sobrevivente da Ohara.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Franky -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="franky.jpg" class="card-img-top" alt="Franky">
+                        <div class="card-body">
+                            <h5 class="card-title">Franky</h5>
+                            <p class="card-text">O engenheiro naval e o construtor do Thousand Sunny.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Brook -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="brook.jpg" class="card-img-top" alt="Brook">
+                        <div class="card-body">
+                            <h5 class="card-title">Brook</h5>
+                            <p class="card-text">O esqueleto músico e o espadachim do bando.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jinbe -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="jinbe.jpg" class="card-img-top" alt="Jinbe">
+                        <div class="card-body">
+                            <h5 class="card-title">Jinbe</h5>
+                            <p class="card-text">O mestre dos peixes-karate e o ex-capitão dos Piratas do Sol.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2 class="text-center mb-4">Contato</h2>
+            <p>Entre em contato conosco para mais informações sobre o Bando do Chapéu de Palha.</p>
+            <p>Email: strawhatpirates@example.com</p>
+            <p>Telefone: +XX XXXX-XXXX</p>
+        </div>
+    </section>
+
+    <!-- Scripts do Bootstrap (necessários para funcionalidades como o dropdown da navbar) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
